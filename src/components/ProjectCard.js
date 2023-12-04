@@ -1,5 +1,7 @@
 import { Col } from "react-bootstrap";
 import "./ProjectCard.css";
+import { useState } from "react";
+import { PopUp } from "./PopUp";
 
 const ProjectCard = ({
   title,
@@ -9,7 +11,11 @@ const ProjectCard = ({
   imgUrl,
   link,
   viewApp,
+  videoUrl,
+  showPopUp,
 }) => {
+  const [modalShow, setModalShow] = useState(false);
+
   return (
     <Col sm={6} md={4}>
       <div className="proj-imgbx">
@@ -22,9 +28,17 @@ const ProjectCard = ({
           <br></br>
           <span>{features}</span>
           <br></br>
-          <a className="play-app" href={link} target="_blank" rel="noreferrer">
+          <button className="play-app" onClick={() => window.open(link, "_blank")}>
             {viewApp}
-          </a>
+          </button>
+          {showPopUp && (
+            <button className="play-app" onClick={() => setModalShow(true)}>{showPopUp}</button>
+          )}
+          <PopUp
+            show={modalShow}
+            onHide={() => setModalShow(false)}
+            videoUrl={videoUrl}
+          />
         </div>
       </div>
     </Col>

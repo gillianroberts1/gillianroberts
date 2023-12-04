@@ -6,6 +6,8 @@ import projectImg3 from "../assets/img/ServivorsHome.png";
 import projectImg4 from "../assets/img/WiggleWaggyWalks.png";
 import projectImg5 from "../assets/img/LouLousLibrary.png";
 import projectImg6 from "../assets/img/tennis_order.png";
+import video1 from "../assets/img/www.mp4";
+
 
 import colorSharp from "../assets/img/color-sharp.png";
 
@@ -33,6 +35,9 @@ const Projects = () => {
       features: "Authentication, Image Upload, Real-time Chat",
       stack: "Java, Spring, Firebase, React",
       imgUrl: projectImg4,
+      showPopUp: "VIEW DEMO",
+      videoUrl: video1,
+      
     },
     {
       title: "SERVivors Tennis Club Booking System",
@@ -64,7 +69,7 @@ const Projects = () => {
           <Col>
             <h2>Projects</h2>
             <p>
-              A selection of my projects completed during my CodeClan Course
+              A selection of projects completed during my CodeClan Course
             </p>
             <Row>
               {projects.map((project, index) => {

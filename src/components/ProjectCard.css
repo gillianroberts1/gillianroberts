@@ -98,7 +98,8 @@ p {
   }
 }
 
-.play-app {
+.play-app,
+.projects a {
   color: #009c97;
   font-weight: 700;
   font-size: 1.5em;
@@ -107,4 +108,11 @@ p {
 }
 .play-app:hover {
   transform: scale(1.5);
+}
+
+
+#contained-modal-title-vcenter{
+  color: #009c97;
+  font-style: italic;
+  margin-left: 12%;
 }
