@@ -1,0 +1,158 @@
+img.hero-img {
+  max-width: 70%;
+  height: auto;
+  margin-left: 122px;
+}
+
+.hero {
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  background-image: url("../assets/img/background1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(
+    90.21deg,
+    #aa9db5 -5.91%,
+    #95b4b5 111%,
+    #a8b59d 20%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.text-box {
+  height: 100px;
+}
+
+/* journey styling */
+.expand-button {
+  background-color: transparent;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  outline: none;
+  margin-right: 10px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.journey-title {
+  margin: 0;
+  font-weight: 700;
+}
+
+.journey-box {
+  background: #aa9db590;
+  border-radius: 67px;
+  width: 1296px;
+  text-align: start;
+  display: block;
+  justify-content: ;
+}
+
+.journey-box p {
+  font-size: 16px;
+}
+
+.journey-card {
+  padding: 40px;
+}
+
+.journey-closing {
+  font-weight: bold;
+}
+
+ol,
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: unset;
+}
+
+.expandable-content {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+}
+
+/*  expandable header */
+
+.journey-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+/* .journey-container p {
+  margin-bottom: 0px;
+} */
+
+.expand-button {
+  margin-top: 0px;
+}
+
+@media (max-width: 767px) {
+  .journey-box {
+    width: 100%;
+  }
+}
+
+/* connect */
+.lets-connect-button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.5em;
+  width: 88%;
+}
+
+.hero button svg {
+  font-size: 25px;
+  margin-left: 12px;
+  transform: 0.3s ease-in-out;
+  line-height: 1;
+}
+
+.hero button:hover svg {
+  margin-left: 20px;
+}
+
+.hero img {
+  animation: updown 3s linear infinite;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
