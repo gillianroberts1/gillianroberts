@@ -14,8 +14,8 @@ export const Hero = () => {
   // const [isMoreExpanded, setIsMoreExpanded] = useState(false);
 
   const toRotate = [
+    "Graduate",
     "Software Developer",
-    "Student",
     "Junior Software Developer",
   ];
   const [text, setText] = useState("");
