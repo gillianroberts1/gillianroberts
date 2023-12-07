@@ -150,7 +150,7 @@ export const Hero = () => {
                   </p>
 
                   <p className="journey-text">
-                    As I near the end of the course, armed with personal and
+                    Since graduating in November 23, armed with personal and
                     group projects under my belt, and a whole new toolkit, I am
                     now excited to embark on a new chapter.
                   </p>
@@ -159,7 +159,7 @@ export const Hero = () => {
                     can apply my newfound skills and unwavering commitment.
                   </p>
 
-                  <p className="journey-closing">Graduating November 2023</p>
+                  <p className="journey-closing">Please reach out should you wish to discuss potential roles, collaborate, give me tips on technical tests, or just for a friendly chat.</p>
                 </div>
               </div>
             )}

@@ -7,6 +7,10 @@ import projectImg4 from "../assets/img/WiggleWaggyWalks.png";
 import projectImg5 from "../assets/img/LouLousLibrary.png";
 import projectImg6 from "../assets/img/tennis_order.png";
 import video1 from "../assets/img/www.mp4";
+import video2 from "../assets/img/stc.mp4";
+import video3 from "../assets/img/lll.mp4";
+
+
 
 
 import colorSharp from "../assets/img/color-sharp.png";
@@ -44,6 +48,8 @@ const Projects = () => {
       description: "Solo Project - August 23",
       stack: "Python, PostgreSQL, Flask",
       imgUrl: projectImg3,
+      showPopUp: "VIEW DEMO",
+      videoUrl: video2,
     },
     
     {
@@ -51,6 +57,8 @@ const Projects = () => {
       description: "Solo Project - July 23",
       stack: "Python, Flask",
       imgUrl: projectImg5,
+      showPopUp: "VIEW DEMO",
+      videoUrl: video3,
     },
     {
       title: "Pink Floyd Tennis Shop",
