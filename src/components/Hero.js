@@ -15,7 +15,7 @@ export const Hero = () => {
 
   const toRotate = [
     "Graduate",
-    "Software Developer",
+    "Full Stack Engineer",
     "Junior Software Developer",
   ];
   const [text, setText] = useState("");
