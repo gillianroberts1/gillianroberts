@@ -111,7 +111,7 @@ export const Hero = () => {
                     proficient as possible.
                   </p>
                   <p className="journey-text">
-                    For the past two decades, I've been deeply involved in the
+                    For the past two decades, I've been involved in the
                     field of selling new homes. I began as a Salesperson, worked
                     my way up to become a Sales Manager, and eventually achieved
                     the position of Head of Sales. It's safe to say I've made

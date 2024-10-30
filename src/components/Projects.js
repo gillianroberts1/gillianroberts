@@ -6,10 +6,9 @@ import projectImg3 from "../assets/img/ServivorsHome.png";
 import projectImg4 from "../assets/img/WiggleWaggyWalks.png";
 import projectImg5 from "../assets/img/LouLousLibrary.png";
 import projectImg6 from "../assets/img/tennis_order.png";
-import tutorialImg1 from "../assets/img/movieland.png"
-import tutorialImg2 from "../assets/img/iphonegsap.png"
-import tutorialImg3 from "../assets/img/sunsister.png"
-
+import tutorialImg1 from "../assets/img/movieland.png";
+import tutorialImg2 from "../assets/img/iphonegsap.png";
+import tutorialImg3 from "../assets/img/sunsister.png";
 
 import video1 from "../assets/img/www.mp4";
 import video2 from "../assets/img/stc.mp4";
@@ -94,7 +93,6 @@ const Projects = () => {
       link: "https://mybraryjs.fly.dev/",
       viewApp: "PLAY APP",
     },
-
   ];
 
   return (
@@ -102,7 +100,7 @@ const Projects = () => {
       <Container>
         <Row>
           <Col>
-            <h2>Projects & Tutorials</h2>
+            <h2>Stuff I've been working on </h2>
             <div className="tab-container">
               <Tabs
                 defaultActiveKey="projects"
