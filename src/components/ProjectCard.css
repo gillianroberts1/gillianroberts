@@ -1,6 +1,29 @@
 .projects {
   position: relative;
 }
+
+.nav-pills {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 450px;
+}
+
+.nav-pills .nav-link {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.nav-pills .nav-link.active {
+  color: white; /* Active tab color */
+  background: linear-gradient(90.21deg, #95b4b5 -5.91%, #e0bdcc 111.58%);
+  opacity: 70%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
 .projects h2 {
   font-size: 35px;
   text-align: center;
@@ -109,8 +132,7 @@ p {
   transform: scale(1.5);
 }
 
-
-#contained-modal-title-vcenter{
+#contained-modal-title-vcenter {
   color: #009c97;
   font-style: italic;
   margin-left: 12%;
