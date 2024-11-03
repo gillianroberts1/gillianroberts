@@ -1,0 +1,69 @@
+:root {
+    --primary-color: #84A98C;
+    --background-color: #CAD2C5;
+    --gradient-start: #52796F;
+    --gradient-end: #354F52;
+    --text-color: #2F3E46;
+    --hover-opacity: 70%;
+    --shadow-color: rgba(47, 62, 70, 0.1);
+  }
+
+  .footer {
+    background-color: var(--background-color);
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--text-color);
+    border-top: 2px solid var(--gradient-end);
+  }
+  
+  .footer .social-icon {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footer .social-icon a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .footer .social-icon a:hover {
+    background-color: var(--gradient-start);
+    transform: scale(1.1);
+  }
+  
+  .footer .social-icon img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .footer .connect {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-weight: 700;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .footer .connect:hover {
+    background-color: var(--gradient-start);
+    transform: scale(1.05);
+  }
+  
+  .footer p {
+    font-size: 14px;
+    color: var(--text-color);
+    opacity: 0.8;
+    margin: 0;
+  }
+  
