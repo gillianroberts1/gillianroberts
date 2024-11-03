@@ -13,6 +13,7 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   color: white;
+  width: 102px;
 }
 
 .nav-pills .nav-link.active {
@@ -21,6 +22,7 @@
   opacity: 70%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 102px;
 }
 
 .projects h2 {
@@ -116,6 +118,22 @@ p {
   }
   h2 {
     padding-top: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* Medium screens (e.g., tablets) */
+  .nav-pills {
+    margin: 0 100px; /* Reduce side margins */
+  }
+}
+
+@media (max-width: 767px) {
+  /* Small screens (e.g., phones) */
+  .nav-pills {
+    flex-direction: row; /* Stack pills vertically */
+    align-items: center; /* Center the pills */
+    margin: 0; /* Remove side margin */
   }
 }
 

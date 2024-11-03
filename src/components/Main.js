@@ -3,6 +3,7 @@ import Hero from "./Hero.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Skills } from "./Skills.js";
 import Projects from "./Projects.js";
+import Footer from "./Footer.jsx";
 
 const Main = () => {
   return (
@@ -11,6 +12,7 @@ const Main = () => {
       <Hero />
       <Skills />
       <Projects />
+      <Footer />
     </div>
   );
 };
