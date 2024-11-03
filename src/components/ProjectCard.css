@@ -1,3 +1,14 @@
+/* Define color variables */
+:root {
+  --color-white: #ffffff;
+  --color-dark-shadow: rgba(0, 0, 0, 0.1);
+  --color-light-blue: #95b4b5;
+  --color-pink: #e0bdcc;
+  --color-background-start: rgb(149, 180, 181);
+  --color-background-end: rgb(170, 157, 181);
+  --color-hover-text: #009c97;
+}
+
 .projects {
   position: relative;
 }
@@ -11,17 +22,17 @@
 .nav-pills .nav-link {
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  color: white;
+  box-shadow: 0 4px 8px var(--color-dark-shadow);
+  color: var(--color-white);
   width: 102px;
 }
 
 .nav-pills .nav-link.active {
-  color: white; /* Active tab color */
-  background: linear-gradient(90.21deg, #95b4b5 -5.91%, #e0bdcc 111.58%);
+  color: var(--color-white); /* Active tab color */
+  background: linear-gradient(90.21deg, var(--color-light-blue) -5.91%, var(--color-pink) 111.58%);
   opacity: 70%;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px var(--color-dark-shadow);
   width: 102px;
 }
 
@@ -30,7 +41,7 @@
   text-align: center;
 }
 .projects p {
-  color: white;
+  color: var(--color-white);
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -40,7 +51,7 @@
 }
 
 p {
-  color: white;
+  color: var(--color-white);
 }
 
 .proj-imgbx {
@@ -51,7 +62,7 @@ p {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #95b4b5 -5.91%, #e0bdcc 111.58%);
+  background: linear-gradient(90.21deg, var(--color-light-blue) -5.91%, var(--color-pink) 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -97,11 +108,11 @@ p {
 }
 
 .background-image {
-  background: rgb(149, 180, 181);
+  background: var(--color-background-start);
   background: radial-gradient(
     circle,
-    rgba(149, 180, 181, 1) 0%,
-    rgba(170, 157, 181, 1) 100%
+    var(--color-background-start) 0%,
+    var(--color-background-end) 100%
   );
   position: absolute;
   bottom: 0;
@@ -111,7 +122,7 @@ p {
 
 @media (max-width: 767px) {
   .col {
-    background: rgb(149, 180, 181);
+    background: var(--color-background-start);
   }
   .skill {
     padding: 0;
@@ -122,24 +133,23 @@ p {
 }
 
 @media (max-width: 991px) {
-  /* Medium screens (e.g., tablets) */
   .nav-pills {
-    margin: 0 100px; /* Reduce side margins */
+    margin: 0 100px; 
   }
 }
 
 @media (max-width: 767px) {
-  /* Small screens (e.g., phones) */
+  
   .nav-pills {
-    flex-direction: row; /* Stack pills vertically */
-    align-items: center; /* Center the pills */
-    margin: 0; /* Remove side margin */
+    flex-direction: row; 
+    align-items: center; 
+    margin: 0; 
   }
 }
 
 .play-app,
 .projects a {
-  color: #009c97;
+  color: var(--color-hover-text);
   font-weight: 700;
   font-size: 1.5em;
   transition: 0.2s ease-in-out;
@@ -150,7 +160,7 @@ p {
 }
 
 #contained-modal-title-vcenter {
-  color: #009c97;
+  color: var(--color-hover-text);
   font-style: italic;
   margin-left: 12%;
 }
