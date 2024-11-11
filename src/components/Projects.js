@@ -126,7 +126,7 @@ const Projects = () => {
                     })}
                   </Row>
                 </Tab>
-                <Col sm={9}></Col>
+                <Col sm={6}></Col>
               </Tabs>
             </div>
           </Col>

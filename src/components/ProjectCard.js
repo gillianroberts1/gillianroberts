@@ -17,7 +17,7 @@ const ProjectCard = ({
   const [modalShow, setModalShow] = useState(false);
 
   return (
-    <Col sm={6} md={4}>
+    <Col xs={12} sm={6} md={6} className="project-col">
       <div className="proj-imgbx">
         <img src={imgUrl} alt="project" />
         <div className="proj-txtx">
