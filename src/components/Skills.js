@@ -40,70 +40,70 @@ export const Skills = () => {
                 <div className="item">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-                    alt="image of css"
+                    alt="CSS"
                   />
                   <h5>CSS</h5>
                 </div>
                 <div className="item">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-                    alt="image of html"
+                    alt="html"
                   />
                   <h5>HTML</h5>
                 </div>
                 <div className="item">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                    alt="Image of react"
+                    alt="react"
                   />
                   <h5>React</h5>
                 </div>
                 <div className="item">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                    alt="Image of javascript"
+                    alt="javascript"
                   />
                   <h5>JavaScript </h5>
                 </div>
                 <div className="item">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
-                    alt="Image of java"
+                    alt="java"
                   />
                   <h5>Java</h5>
                 </div>
                 <div className="item">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
-                    alt="Image of spring"
+                    alt="spring"
                   />
                   <h5>Spring</h5>
                 </div>
                 <div className="item">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-                    alt="Image of python"
+                    alt="python"
                   />
                   <h5>Python</h5>
                 </div>
                 <div className="item">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
-                    alt="Image of postgresql"
+                    alt="postgresql"
                   />
                   <h5>PostgreSQL</h5>
                 </div>
                 <div className="item">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-                    alt="Image of express"
+                    alt="express"
                   />
                   <h5>Express</h5>
                 </div>
                 <div className="item">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-                    alt="Image of nodejs"
+                    alt="nodejs"
                   />
                   <h5>Nodejs</h5>
                 </div>
@@ -111,14 +111,14 @@ export const Skills = () => {
                 <div className="item">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-                    alt="Image of mongodb"
+                    alt="mongodb"
                   />
                   <h5>Mongodb</h5>
                 </div>
                 <div className="item">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                    alt="Image of github"
+                    alt="github"
                   />
                   <h5>github</h5>
                 </div>
@@ -127,7 +127,7 @@ export const Skills = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image" src={colorSharp} />
+      <img className="background-image" src={colorSharp} alt="" />
     </section>
   );
 };

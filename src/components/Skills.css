@@ -58,7 +58,7 @@
 
 .react-multi-carousel-track {
   display: flex;
-  align-items: end;
+  flex: end;
 }
 
 .react-multiple-carousel__arrow {

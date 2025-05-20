@@ -9,6 +9,9 @@ import projectImg6 from "../assets/img/tennis_order.png";
 import tutorialImg1 from "../assets/img/movieland.png";
 import tutorialImg2 from "../assets/img/iphonegsap.png";
 import tutorialImg3 from "../assets/img/sunsister.png";
+import projectImg7 from "../assets/img/WHA.png";
+
+
 
 import video1 from "../assets/img/www.mp4";
 import video2 from "../assets/img/stc.mp4";
@@ -19,10 +22,20 @@ import colorSharp from "../assets/img/color-sharp.png";
 const Projects = () => {
   const projects = [
     {
+      title: "Wendy Hudson Author Website",
+      description: "Personal Project - April 25",
+      stack: "React,Tailwind, Responsive ",
+      imgUrl: projectImg7,
+      alt: "Wendy Hudson",
+      link: "https://wendy-hudson-author.vercel.app/",
+      viewApp: "PLAY APP",
+    },
+    {
       title: "Sizzle & Grill Aromatic Recipes",
       description: "Group Project- October 23",
       stack: "React, MongoDB, Express, Node.js, 1st party API, Responsive ",
       imgUrl: projectImg1,
+      alt: "recipe image",
       link: "https://sgar.vercel.app/",
       viewApp: "PLAY APP",
     },
@@ -31,8 +44,7 @@ const Projects = () => {
       description: "Personal Project - September 23",
       stack: "React, MongoDB, Express, Node.js, 3rd party API, Responsive",
       imgUrl: projectImg2,
-      link: "https://brew-dog-deployed.vercel.app/",
-      viewApp: "PLAY APP",
+      alt: "brew dog image",
     },
     {
       title: "Wiggle Waggy Walks",
@@ -40,6 +52,7 @@ const Projects = () => {
       features: "Authentication, Image Upload, Real-time Chat",
       stack: "Java, Spring, Firebase, React",
       imgUrl: projectImg4,
+      alt: "wiggle waggy image",
       showPopUp: "VIEW DEMO",
       videoUrl: video1,
     },
@@ -48,6 +61,7 @@ const Projects = () => {
       description: "Solo Project - August 23",
       stack: "Python, PostgreSQL, Flask",
       imgUrl: projectImg3,
+      alt: "servivors image",
       showPopUp: "VIEW DEMO",
       videoUrl: video2,
     },
@@ -57,6 +71,7 @@ const Projects = () => {
       description: "Solo Project - July 23",
       stack: "Python, Flask",
       imgUrl: projectImg5,
+      alt: "loulous image",
       showPopUp: "VIEW DEMO",
       videoUrl: video3,
     },
@@ -65,6 +80,7 @@ const Projects = () => {
       description: "Solo Project - July 23",
       stack: "Python, Flask",
       imgUrl: projectImg6,
+      alt: "tennis image",
     },
   ];
 
@@ -132,7 +148,8 @@ const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image" src={colorSharp} />
+      {/* eslint-disable-next-line jsx-a11y/alt-text */}
+      <img className="background-image" src={colorSharp} alt="" />
     </section>
   );
 };
