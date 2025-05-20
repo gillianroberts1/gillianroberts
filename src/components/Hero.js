@@ -156,7 +156,7 @@ export const Hero = () => {
                   </p>
                   <p className="journey-closing">
                     I'm excited to be starting with the BBC as a Junior Software Engineer, September 2025,
-                    where I can apply my newfound skills and unwavering commitment.
+                    where I can continue to develop my newfound skills and unwavering commitment.
                   </p>
 
                 </div>
