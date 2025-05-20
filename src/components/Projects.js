@@ -72,8 +72,7 @@ const Projects = () => {
       stack: "Python, Flask",
       imgUrl: projectImg5,
       alt: "loulous image",
-      showPopUp: "VIEW DEMO",
-      videoUrl: video3,
+      
     },
     {
       title: "Pink Floyd Tennis Shop",
