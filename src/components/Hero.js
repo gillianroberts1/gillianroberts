@@ -155,11 +155,10 @@ export const Hero = () => {
                     now excited to embark on a new chapter.
                   </p>
                   <p className="journey-closing">
-                    I'm actively seeking Junior Software Developer roles where I
-                    can apply my newfound skills and unwavering commitment.
+                    I'm excited to be starting with the BBC as a Junior Software Engineer, September 2025,
+                    where I can apply my newfound skills and unwavering commitment.
                   </p>
 
-                  <p className="journey-closing">Please reach out should you wish to discuss potential roles, collaborate, give me tips on technical tests, or just for a friendly chat.</p>
                 </div>
               </div>
             )}
