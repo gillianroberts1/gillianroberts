@@ -24,7 +24,7 @@ const Projects = () => {
     {
       title: "Wendy Hudson Author Website",
       description: "Personal Project - April 25",
-      stack: "React,Tailwind, Responsive ",
+      stack: "React,Tailwind,Responsive - Currently Under Construction",
       imgUrl: projectImg7,
       alt: "Wendy Hudson",
       link: "https://wendy-hudson-author.vercel.app/",
